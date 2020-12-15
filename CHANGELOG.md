@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/hckhanh/polka-spa/compare/v0.0.1...v0.0.2) (2020-12-15)
+
+
+### Dependencies
+
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([1712d85](https://github.com/hckhanh/polka-spa/commit/1712d85569622a198ee5700899e71a1d6c1a1f97))
+* upgrade dependencies ([8b773ff](https://github.com/hckhanh/polka-spa/commit/8b773ff63606ca3e9c1b21a42a86a3dad119c470))
+
 ### 0.0.1 (2020-11-21)
 
 
