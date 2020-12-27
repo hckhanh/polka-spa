@@ -9,7 +9,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "helmet": "^4.2.0",
+    "helmet": "^4.3.0",
     "js-yaml": "^3.14.1",
     "lightship": "^6.5.0",
     "polka": "^0.5.2",
