@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/hckhanh/polka-spa/compare/v0.0.4...v0.0.5) (2021-01-17)
+
+
+### Dependencies
+
+* **deps:** bump lightship from 6.5.0 to 6.6.0 ([#14](https://github.com/hckhanh/polka-spa/issues/14)) ([50ac99c](https://github.com/hckhanh/polka-spa/commit/50ac99c60fab0ac7211dc7a6cb472f58e117241a))
+
 ### [0.0.4](https://github.com/hckhanh/polka-spa/compare/v0.0.2...v0.0.4) (2021-01-17)
 
 
