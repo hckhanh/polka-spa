@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/hckhanh/polka-spa/compare/v0.0.2...v0.0.3) (2021-01-17)
+
+
+### Dependencies
+
+* **deps:** bump js-yaml from 3.14.1 to 4.0.0 ([#18](https://github.com/hckhanh/polka-spa/issues/18)) ([9855e41](https://github.com/hckhanh/polka-spa/commit/9855e419f4abcd29204e4c2e96f41ac15cf382f3))
+* **deps-dev:** bump husky from 4.3.6 to 4.3.7 ([#19](https://github.com/hckhanh/polka-spa/issues/19)) ([e7d37a9](https://github.com/hckhanh/polka-spa/commit/e7d37a9e36badf9f5f7e6b7303cf83df98fb9cb7))
+
 ### [0.0.2](https://github.com/hckhanh/polka-spa/compare/v0.0.1...v0.0.2) (2020-12-15)
 
 
