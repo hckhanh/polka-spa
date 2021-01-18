@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/hckhanh/polka-spa/compare/v0.0.6...v0.0.7) (2021-01-18)
+
+
+### Dependencies
+
+* **deps-dev:** bump husky from 4.3.7 to 4.3.8 ([46f9ef8](https://github.com/hckhanh/polka-spa/commit/46f9ef8e370958ba79ef426b840085e4590ec08e))
+
 ### [0.0.6](https://github.com/hckhanh/polka-spa/compare/v0.0.5...v0.0.6) (2021-01-17)
 
 
