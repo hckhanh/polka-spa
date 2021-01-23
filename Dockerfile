@@ -1,9 +1,14 @@
-FROM node:lts
+FROM node:lts-alpine3.12
 
 ENV NODE_ENV "production"
+ENV DUMB_INIT_VERSION "1.2.4"
 
 # Create app directory
 WORKDIR /usr/src/app
+
+# Install dumb-init
+RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/download/v$DUMB_INIT_VERSION/dumb-init_${DUMB_INIT_VERSION}_x86_64
+RUN chmod +x /usr/local/bin/dumb-init
 
 # Yarn configurations
 COPY .yarnrc ./
@@ -24,4 +29,4 @@ COPY . .
 EXPOSE 9000
 
 # Start the app
-CMD yarn start
+CMD ["dumb-init", "node", "index.js"]

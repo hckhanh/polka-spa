@@ -30,7 +30,7 @@ app
   .use(serve)
   .listen(PORT, err => {
     if (err) throw err;
-    console.log(`Server is running on localhost:${PORT}`);
+    console.log(`Server is ready at http://localhost:${PORT}`);
   });
 
 /**
