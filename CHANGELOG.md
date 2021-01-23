@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/hckhanh/polka-spa/compare/v0.0.8...v0.0.9) (2021-01-23)
+
+
+### Features
+
+* update configurations of Dockerfile ([f203889](https://github.com/hckhanh/polka-spa/commit/f2038899d591a7e3adb08c06e5e9c29cf78d2dde))
+
+
+### Bug Fixes
+
+* migrate from js-yaml v3 to v4 ([72f722e](https://github.com/hckhanh/polka-spa/commit/72f722e2ce7436a385b242bd780db2c82280221a))
+
 ### [0.0.8](https://github.com/hckhanh/polka-spa/compare/v0.0.7...v0.0.8) (2021-01-23)
 
 
