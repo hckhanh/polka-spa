@@ -9,6 +9,7 @@ build
 # Development configurations (except csp settings)
 *.yml
 .*rc
+Dockerfile
 
 # Project settings (must be included)
 !csp.yml
@@ -16,3 +17,6 @@ build
 
 # Logs
 *.log
+
+# Tests
+tests
