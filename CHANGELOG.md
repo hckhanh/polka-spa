@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/hckhanh/polka-spa/compare/v0.0.9...v0.0.10) (2021-01-25)
+
+
+### Features
+
+* add GitHub Container Registry ([cee50f8](https://github.com/hckhanh/polka-spa/commit/cee50f85f5584a1444a7e7350637831cd52ef3a5))
+
 ### [0.0.9](https://github.com/hckhanh/polka-spa/compare/v0.0.8...v0.0.9) (2021-01-23)
 
 
