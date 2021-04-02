@@ -23,12 +23,14 @@ const serve = sirv(BUILD_PATH, { single: true });
 ENABLE_GZIP === "true" && app.use(compression());
 app
   .use(cors(corsConfigs))
-  .use(helmet({
-    referrerPolicy: { policy: helmetConfigs.referrerPolicy },
-    contentSecurityPolicy: helmetConfigs.enableCsp && helmetConfigs.csp
-  }))
+  .use(
+    helmet({
+      referrerPolicy: { policy: helmetConfigs.referrerPolicy },
+      contentSecurityPolicy: helmetConfigs.enableCsp && helmetConfigs.csp,
+    })
+  )
   .use(serve)
-  .listen(PORT, err => {
+  .listen(PORT, (err) => {
     if (err) throw err;
     console.log(`Server is ready at http://localhost:${PORT}`);
   });
