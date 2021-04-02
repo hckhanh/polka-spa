@@ -1,7 +1,7 @@
-FROM node:lts-alpine3.12
+FROM node:lts-alpine3.13
 
 ENV NODE_ENV "production"
-ENV DUMB_INIT_VERSION "1.2.4"
+ENV DUMB_INIT_VERSION "1.2.5"
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -11,7 +11,7 @@ RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/
 RUN chmod +x /usr/local/bin/dumb-init
 
 # Yarn configurations
-COPY .yarnrc ./
+COPY .yarnrc.yml ./
 
 # Yarn cache and releases
 COPY .yarn .yarn/
@@ -20,7 +20,7 @@ COPY .yarn .yarn/
 COPY package.json yarn.lock ./
 
 # Check yarn configurations and cache
-RUN yarn --frozen-lockfile --check-files
+RUN yarn --immutable --immutable-cache
 
 # Bundle app source
 COPY . .

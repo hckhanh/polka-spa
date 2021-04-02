@@ -7,13 +7,8 @@ node_modules
 build
 
 # Development configurations (except csp settings)
-*.yml
-.*rc
+.*ignore
 Dockerfile
-
-# Project settings (must be included)
-!csp.yml
-!.yarnrc
 
 # Logs
 *.log
