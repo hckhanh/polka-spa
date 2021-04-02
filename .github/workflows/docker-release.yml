@@ -29,8 +29,6 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GCR_TOKEN }}
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: Check dependencies
         run: yarn --immutable --immutable-cache
       - name: Build and push
