@@ -39,5 +39,3 @@ jobs:
           tags: |
             ${{ github.repository }}:latest
             ghcr.io/${{ github.repository }}:latest
-      - name: Push changes
-        run: git push --follow-tags
